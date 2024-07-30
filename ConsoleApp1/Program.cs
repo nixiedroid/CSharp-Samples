@@ -1,4 +1,7 @@
-﻿namespace ConsoleApp1;
+﻿using System.Collections.Specialized;
+using Microsoft.VisualBasic;
+
+namespace ConsoleApp1;
 
 class Program
 {
@@ -28,9 +31,12 @@ class Program
         }
 
         List<Int32> list = new List<int>();
-        list.Add(24);
+        list.Add(34);
+        list.Add(31);
         Console.WriteLine(Printer.print(list));
 
+        
+        list.ForEach(l => Console.WriteLine(l));
     }
 
     abstract class Printer
