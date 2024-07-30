@@ -1,6 +1,9 @@
 namespace ConsoleApp1;
 
-public class Alex
+public class Alex : Person
 {
-    
+    public override void DoWalk()
+    {
+        Console.WriteLine("Alex");
+    }
 }

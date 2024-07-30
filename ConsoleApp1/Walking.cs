@@ -1,6 +1,6 @@
 namespace ConsoleApp1;
 
-public interface Walking
+public interface IWalking
 {
-    
+    void DoWalk();
 }
